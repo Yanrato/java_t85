@@ -18,10 +18,10 @@ public class Exe04 {
 		System.out.print("Digite o segundo valor: ");
 		n2 = leia.nextDouble();
 		
-		System.out.println("Digite o terceiro valor: ");
+		System.out.print("Digite o terceiro valor: ");
 		n3 = leia.nextDouble();
 		
-		System.out.println("Digite o quarto valor: ");
+		System.out.print("Digite o quarto valor: ");
 		n4 = leia.nextDouble();
 		
 		System.out.printf("(%.2f X %.2f) - (%.2f X %.2f) = %.2f", n1, n2, n3, n4, (n1 * n2) - (n3 * n4));
