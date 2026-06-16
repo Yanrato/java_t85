@@ -23,30 +23,31 @@ public class Exe07Ls2 {
 			System.out.println("                 Calculadora                ");
 			System.out.println("*****************************************");
 			System.out.println(" ");
-			System.out.println("          1 - Adicao");
-			System.out.println("          2 - subtracao");
-			System.out.println("          3 - multiplicacao");
-			System.out.println("          4 - divisao");
+			System.out.println("          1 - Adição");
+			System.out.println("          2 - Subtração");
+			System.out.println("          3 - Multiplicação");
+			System.out.println("          4 - Divisão");
 			System.out.println(" ");
 			System.out.println("*****************************************");
 
-			System.out.println("Digite o numero da operacao: ");
+			System.out.println("Digite o número da operação: ");
 			int operacao = leia.nextInt();
 			
 			switch (operacao) {
 			case 1:
-				System.out.print("Adicao");
+				System.out.print("Adição");
 				System.out.printf("\n %.2f + %.2f = %.2f", numero1, numero2, numero1 + numero2);
 				break;
 			case 2:
-				System.out.print("Subtracao");
+				System.out.print("Subtração");
 				System.out.printf("\n %.2f - %.2f = %.2f", numero1, numero2, numero1 - numero2);
 			break;
 			case 3: 
-				System.out.print("Adicao");
+				System.out.print("Multiplicação");
 				System.out.printf("\n %.2f X %.2f = %.2f", numero1, numero2, numero1 * numero2);
 			break;
 			case 4:
+				System.out.print("Divisão");
 				System.out.printf("\n %.2f / %.2f = %.2f", numero1, numero2, numero1 / numero2);
 				break;
 			default:
